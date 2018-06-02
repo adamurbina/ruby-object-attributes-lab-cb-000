@@ -16,3 +16,7 @@ class Person
     end
 
 end
+
+singer = Person.new
+singer.name = "Beyonce"
+puts singer.name
